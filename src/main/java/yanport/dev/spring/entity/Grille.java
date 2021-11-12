@@ -2,20 +2,17 @@ package yanport.dev.spring.entity;
 
 import java.io.Serializable;
 
-import javax.persistence.Entity;
-
-@Entity
-public class Grille implements Serializable{
+public class Grille implements Serializable {
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 3193550113898335159L;
-	
+
 	private long id;
 	private int axe_x;
 	private int axe_y;
-	
+
 	public Grille() {
 		super();
 	}
@@ -49,11 +46,5 @@ public class Grille implements Serializable{
 	public void setAxe_y(int axe_y) {
 		this.axe_y = axe_y;
 	}
-	
-	
-	
-	
-	
-	
 
 }
